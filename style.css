@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header styles */
+/* navbar style */
+.navbar-container {
+    background-color: black;
+}
+
+nav {
+    margin: -20px 0px;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+nav li {
+    list-style: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 20px;
+    color: whitesmoke;
+
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li>ul {
+
+    display: none;
+}
+
+nav li:hover>ul {
+    display: block;
+    position: absolute;
+
+}
+
+nav li:hover {
+    background-color: rgb(226, 185, 209);
+}
+
+/* banner section styles in header */
+.header-banner{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 65px 180px 0px 180px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+}
+.primary-btn{
+    color: #FFF;
+font-size: 15px;
+font-weight: 400;
+border-radius: 8px;
+background: #E55473;
+padding: 12px 25px;
+border: none;
+}
+.banner-img img{
+    width: 400px;
+    padding-top: 40px;
+}
