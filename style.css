@@ -3,6 +3,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: Lato;
 }
 
 /* header styles */
@@ -260,17 +261,25 @@ margin-right: 10px;
 /* footer styles */
 .footer-flower{
     background: #111010;
-    justify-content: center;
-    align-items: center;
+    padding: 80px 50px;
 }
+
 .footer-title{
 color: white;
-font-size: 30px;
+font-size: 33px;
 font-weight: 800;
 text-align: center;
 }
 .footer-description{
     color: rgba(255, 255, 255, 0.90);
+    text-align: center;
 font-size: 14px;
+font-weight: 400;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-style: normal;
 font-weight: 400;
 }
